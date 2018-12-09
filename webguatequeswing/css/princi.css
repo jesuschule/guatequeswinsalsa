@@ -1,0 +1,85 @@
+/*-------------------------------------
+MediaQueries a los 1800px
+------------------------------------*/
+@media screen and (max-width: 766px){
+	.container{
+		display:flex;
+        flex-wrap:wrap; }
+}
+	@media screen and (min-width: 768px){
+	#menu-principal{
+		height:auto;
+        display:block; 
+	}
+        .container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: 0;
+            align-items: center;}
+         #menu-principal ul{
+	display:flex;
+        align-items:center;
+        margin:4px 0 0 0; 
+	}
+         #menu-principal ul{
+	display:flex;
+        align-items:center;
+        margin:4px 0 0 0; 
+	}
+         #menu-principal ul li a{
+	padding: 10px;
+        margin:6px; 
+	}
+        @media screen and (min-width: 1117px){
+	#galeria{
+		justify-content:flex-start; 
+	}
+     
+}
+        
+    
+    
+    
+/*
+	}
+
+@media screen and (min-width: 768px){
+	#menu-principal{
+		height:auto;
+        display:block; 
+	}
+    #menu-principal ul{
+	display:flex;
+        align-items:center;
+        margin:4px 0 0 0; 
+	}
+    #menu-principal ul li a{
+	padding: 10px;
+        margin:6px; 
+	}
+    }
+    .lo img{width:140%; 
+	
+	}
+ #menu-principal {
+	flex:0 1 auto;
+	}
+
+ .container {
+    display: flex;
+    align-items: center;
+    background-color: #b3382d;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: 0;
+     align-items: center;
+
+
+
+
+	
+
+	} */
